@@ -1,0 +1,88 @@
+/* Chat Container */
+.chat-container {
+  width: 100%;
+  max-width: 360px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #e5ddd5;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat Bubble Base */
+.bubble {
+  padding: 10px 14px;
+  border-radius: 15px;
+  max-width: 75%;
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Sent Message (Right side) */
+.bubble.me {
+  background: #dcf8c6;
+  margin-left: auto;
+  border-bottom-right-radius: 4px;
+}
+
+/* Received Message (Left side) */
+.bubble.other {
+  background: #ffffff;
+  margin-right: auto;
+  border-bottom-left-radius: 4px;
+}
+
+/* Timestamp */
+.time {
+  display: block;
+  font-size: 10px;
+  margin-top: 4px;
+  text-align: right;
+  opacity: 0.6;
+}
+
+/* Typing Bubble */
+.bubble.typing {
+  font-style: italic;
+  background: #fff;
+  opacity: 0.7;
+}
+
+/* Fade Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scrollbar (optional) */
+.chat-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .chat-container {
+    max-width: 95%;
+    padding: 8px;
+  }
+
+  .bubble {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,24 @@
+.wa-container {
+  width: 100%;
+  background: #ece5dd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.wa-header {
+  background: #075e54;
+  color: white;
+  padding: 5px;
+}
+
+.wa-msg {
+  background: #dcf8c6;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.meta {
+  font-size: 10px;
+  text-align: right;
+}
