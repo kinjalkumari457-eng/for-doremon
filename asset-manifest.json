@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.015e8293.css",
-    "main.js": "/static/js/main.abfc31fc.js",
-    "index.html": "/index.html",
-    "main.015e8293.css.map": "/static/css/main.015e8293.css.map",
-    "main.abfc31fc.js.map": "/static/js/main.abfc31fc.js.map"
+    "main.css": "/for-doremon/static/css/main.015e8293.css",
+    "main.js": "/for-doremon/static/js/main.abfc31fc.js",
+    "index.html": "/for-doremon/index.html",
+    "main.015e8293.css.map": "/for-doremon/static/css/main.015e8293.css.map",
+    "main.abfc31fc.js.map": "/for-doremon/static/js/main.abfc31fc.js.map"
   },
   "entrypoints": [
     "static/css/main.015e8293.css",
